@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Adverstisements>
+  <Ad>
+    <ImageUrl>~/Images/Hutano.png</ImageUrl>
+    <NavigateUrl>https://www.hutano.com</NavigateUrl>
+    <AlternateText>Please Visit https://www.hutano.com</AlternateText>
+    <Impression>10</Impression>
+    <Keyword>Hutano</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Delp.png</ImageUrl>
+    <NavigateUrl>https://www.delp.com</NavigateUrl>
+    <AlternateText>Please Visit https://www.delp.com</AlternateText>
+    <Impression>30</Impression>
+    <Keyword>Delp</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/BulkSMS.png</ImageUrl>
+    <NavigateUrl>https://www.technoextreme.com</NavigateUrl>
+    <AlternateText>Please Visit https://www.technoextreme.com</AlternateText>
+    <Impression>20</Impression>
+    <Keyword>Bulk SMS</Keyword>
+  </Ad>
+</Adverstisements>
