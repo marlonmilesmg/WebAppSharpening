@@ -76,6 +76,7 @@
     <Content Include="Images\Calendar1.PNG" />
     <Content Include="Images\Delp.PNG" />
     <Content Include="Images\Hutano.png" />
+    <Content Include="MultiView.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -106,6 +107,13 @@
     </Compile>
     <Compile Include="HiddenField.aspx.designer.cs">
       <DependentUpon>HiddenField.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MultiView.aspx.cs">
+      <DependentUpon>MultiView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MultiView.aspx.designer.cs">
+      <DependentUpon>MultiView.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
