@@ -70,6 +70,7 @@
     <Content Include="AdsData.xml" />
     <Content Include="AdvertisementsOnline.aspx" />
     <Content Include="Calendar.aspx" />
+    <Content Include="Controls.aspx" />
     <Content Include="FileUpload.aspx" />
     <Content Include="HiddenField.aspx" />
     <Content Include="Images\BulkSms.png" />
@@ -95,6 +96,13 @@
     </Compile>
     <Compile Include="Calendar.aspx.designer.cs">
       <DependentUpon>Calendar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls.aspx.cs">
+      <DependentUpon>Controls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls.aspx.designer.cs">
+      <DependentUpon>Controls.aspx</DependentUpon>
     </Compile>
     <Compile Include="FileUpload.aspx.cs">
       <DependentUpon>FileUpload.aspx</DependentUpon>
