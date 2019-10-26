@@ -79,6 +79,7 @@
     <Content Include="Images\Hutano.png" />
     <Content Include="MultiView.aspx" />
     <Content Include="Panel Control.aspx" />
+    <Content Include="RequiredFieldValidator.aspx" />
     <Content Include="Web.config" />
     <Content Include="Wizard Control.aspx" />
   </ItemGroup>
@@ -133,6 +134,13 @@
       <DependentUpon>Panel Control.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequiredFieldValidator.aspx.cs">
+      <DependentUpon>RequiredFieldValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RequiredFieldValidator.aspx.designer.cs">
+      <DependentUpon>RequiredFieldValidator.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Wizard Control.aspx.cs">
       <DependentUpon>Wizard Control.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
