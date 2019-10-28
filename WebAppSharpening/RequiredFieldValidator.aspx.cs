@@ -16,7 +16,16 @@ namespace WebAppSharpening
 
         protected void btnSave_Click(object sender, EventArgs e)
         {
-
+            if (IsValid)
+            {
+                lblStatus.ForeColor = System.Drawing.Color.Green;
+                lblStatus.Text = "Data Saved Successfully"; //Write ADO.NET Code here to connect and save to database
+            }
+            else
+            {
+                lblStatus.ForeColor = System.Drawing.Color.Red;
+                lblStatus.Text = "Validation Failed! Data Was Not Saved Successfully"; //Write ADO.NET Code here to connect and save to database
+            }
         }
     }
 }
