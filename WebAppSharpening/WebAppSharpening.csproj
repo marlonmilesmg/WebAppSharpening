@@ -78,8 +78,10 @@
     <Content Include="Images\Delp.PNG" />
     <Content Include="Images\Hutano.png" />
     <Content Include="MultiView.aspx" />
+    <Content Include="PageNavigationTechniques.aspx" />
     <Content Include="Panel Control.aspx" />
     <Content Include="RequiredFieldValidator.aspx" />
+    <Content Include="ServerTransferNavigation.aspx" />
     <Content Include="Web.config" />
     <Content Include="Wizard Control.aspx" />
   </ItemGroup>
@@ -126,6 +128,13 @@
     <Compile Include="MultiView.aspx.designer.cs">
       <DependentUpon>MultiView.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PageNavigationTechniques.aspx.cs">
+      <DependentUpon>PageNavigationTechniques.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageNavigationTechniques.aspx.designer.cs">
+      <DependentUpon>PageNavigationTechniques.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Panel Control.aspx.cs">
       <DependentUpon>Panel Control.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -140,6 +149,13 @@
     </Compile>
     <Compile Include="RequiredFieldValidator.aspx.designer.cs">
       <DependentUpon>RequiredFieldValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ServerTransferNavigation.aspx.cs">
+      <DependentUpon>ServerTransferNavigation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServerTransferNavigation.aspx.designer.cs">
+      <DependentUpon>ServerTransferNavigation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Wizard Control.aspx.cs">
       <DependentUpon>Wizard Control.aspx</DependentUpon>
