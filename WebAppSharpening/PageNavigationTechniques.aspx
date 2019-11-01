@@ -23,11 +23,18 @@
             <asp:Label ID="Label3" runat="server" Text="Email:"></asp:Label>
             <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
             <br />
-            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Transfer To Server Transfer Navigation" />
+            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Transfer To Server.Transfer Navigation" />
+            <br />
+            <br />
+            <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Transfer To Server.Execute Navigation" />
+            <br />
+            <br />
+            <asp:Button ID="Button5" runat="server" PostBackUrl="~/ServerTransferNavigation.aspx" Text="Cross Page Postback" />
             <br />
             <br />
             <asp:Button ID="Button3" runat="server" Text="Transfer To External Website" Width="231px" />
 
+            <h4>&nbsp;</h4>
             <h4>Server.Execute</h4>
             <h4>Cross-Page Postback</h4>
             <h4>Window.Open</h4>
