@@ -23,5 +23,10 @@ namespace WebAppSharpening
         {
             Server.Transfer("~/ServerTransferNavigation.aspx");
         }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Server.Execute("~/ServerTransferNavigation.aspx");
+        }
     }
 }
