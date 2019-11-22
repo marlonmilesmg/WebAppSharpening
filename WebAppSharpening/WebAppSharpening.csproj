@@ -80,9 +80,12 @@
     <Content Include="MultiView.aspx" />
     <Content Include="PageNavigationTechniques.aspx" />
     <Content Include="Panel Control.aspx" />
+    <Content Include="ParentsRegistration.aspx" />
     <Content Include="RequiredFieldValidator.aspx" />
     <Content Include="ServerTransferNavigation.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Wizard Control.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -141,6 +144,13 @@
     </Compile>
     <Compile Include="Panel Control.aspx.designer.cs">
       <DependentUpon>Panel Control.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ParentsRegistration.aspx.cs">
+      <DependentUpon>ParentsRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ParentsRegistration.aspx.designer.cs">
+      <DependentUpon>ParentsRegistration.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RequiredFieldValidator.aspx.cs">
